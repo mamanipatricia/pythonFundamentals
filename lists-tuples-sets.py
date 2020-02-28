@@ -52,3 +52,17 @@ print(grades)
 setGrades.add(60)
 setGrades.add(60)
 print(setGrades) ## only appears once 60
+
+# --------- ADVANCED SET OPERATIONS ---------
+# DEFINITION: SETS is a collection of unique and unordered elements.
+print("----SETS OPERATIONS----")
+yourLoteryNumber = {1, 2, 3, 4, 5}
+winningNumber = {1, 3, 5, 7, 9, 11}
+
+print("INTERSECTION: ", yourLoteryNumber.intersection(winningNumber))
+
+print("UNION: ", yourLoteryNumber.union(winningNumber))
+
+print("DIFERENCE: ", {1, 2, 3, 4}.difference({1, 2}))
+
+

@@ -36,3 +36,30 @@ def my_method():
 '''
 
 # LISTS, TUPLES AND SETS
+
+This coding exercise requires you to complete three steps"
+- 1. Create a list, called my_list , with three numbers. Total of the numbers added together should be 100.
+- 2. Create a tuple, called my_tuple , with a single value in it.
+- 3. MOdify the variable set2 so that set1.intersection(set2) returns {5, 77, 9, 12}
+
+SOLUTION:
+
+1.
+my_list = [1, 2, 98]
+my_list = [100, 0, 0]
+2.
+my_tuple = (15) # signify a mathematical operator   X
+my_tuple = (15,) _/
+my_tuple = 15,  _/
+3.
+set1 = {14, 5, 9, 31, 12, 77, 67, 8}
+set2 = {5}
+<!-- SOLUTION -->
+set1 = {14, 5, 9, 31, 12, 77, 67, 8}
+set2 = {5, 77, 9, 12}
+
+
+
+
+
+
