@@ -12,7 +12,7 @@ gradeFour = 100
 print((gradeOne + gradeTwo + gradeThree + gradeFour) / 4)
 
 # LISTS - mutable
-grades = [77, 88, 99, 100]
+grades = [77, 88, 99, 100] # ordered that it was created the list
 grades.append(111)
 print(grades)
 # ways to add  elements to a list
@@ -25,6 +25,14 @@ gradesTuple = (77, 88, 99, 100, 299, 445) # inmutable
 setGrades = {77, 43, 23, 64, 64} # remove 64
 print(setGrades)
 
+# --------------------------------
 
+# ADDING
+# LIST
+grades.append(999)
+print("gradesList: ", grades)
+# TUPLES - always add the comma i it is just a number to add
+gradesTuple = gradesTuple + (999, )
+print("gradesTuple: ", gradesTuple)
 
 
