@@ -30,3 +30,7 @@ def myMultiplyMethod(numOne, numTwo):
 
 result = myMultiplyMethod(5, 3)
 print("The multiply: ", result)
+
+# Nesting methods -- NOT SUGGESTED - IS NOT READABLE
+myPrintMethod(myMultiplyMethod(5, 3))
+
