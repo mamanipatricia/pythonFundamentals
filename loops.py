@@ -28,7 +28,4 @@ while user_wants_number == True:
     if user_input =='n':
         user_wants_number = False
         print(10)
-
-
-
-# --------------
+ 
