@@ -34,7 +34,7 @@ class Student:
     # def go_to_school(self):
     #     print("I am going to going to school" school")
     @classmethod
-    # when you want to have a method that it is global..
+    # when you want to have a method that is global..
     def go_to_school(cls):
         print("I am going to school")
         print("I am a {}".format(cls))
@@ -52,7 +52,7 @@ anna.marks.append(71)
 
 anna.go_to_school()
 
-Student.go_to_school() # this can be declared with both classmethod and staticmethod
+Student.go_to_school() # this can be declared with both @classmethod and @staticmethod
 # all objects ANNA, ROLF share the same method go_to_school
 
 print(anna.marks)
