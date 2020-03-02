@@ -93,6 +93,7 @@ for number in numbers:
 return evens
 
 #### use elif because always one of them is gonna run
+
 def user_menu(choise):
 if choice == "a":
     return "Add"
@@ -100,7 +101,44 @@ elif choice == "q"
     return "Quit"
 
 
+### DICTIONARIES
 
 
+The conding exercise has three parts. See them outlined in detail the coding exercise, as comments
 
+- Create a dictionary variable, called 'student'
+- modify a variable, 'grades', so it contains the value of a dictionaries key
+- implement a function calculating a total average grade for a class of students.
+
+student =
+
+def average_grade(data):
+    grades =
+    return sum(grades) / len(grades)
+
+def average_all_students(student_list):
+    total = 0
+    count = 0
+    for student in student_list:
+        ### implement here
+
+    return total / count
+
+SOLUTION:
+
+student = {'name': 'jose', 'school': 'computing, 'grades': (66, 77, 88)}
+
+def average_grade(data):
+    grades = data['grades']
+    return sum(grades) / len(grades)
+
+def average_all_students(student_list):
+    total = 0 # sum all the grades
+    count = 0 # amount of grades
+    for student in student_list:
+        total += sum(student['grades']) # a shortcut +=
+        <!-- total = total + sum(student['grades']) -->
+        count = count + len(student['grades'])
+
+    return total / count
 
