@@ -17,23 +17,26 @@ print("--------------")
 
 def who_do_you_know():
     # Ask the user for a list of people they know
-    people = input("Enter the names of people you know, separated by commas: ")# John, Rolf, Anna
+    # people = input("Enter the names of people you know, separated by commas: ")# John, Rolf, Anna
     # split the string into a list
-    people_list = people.split(",") # ["John", "Rolf", "Anna", "GReg"]
+    # people_list = people.split(",") # ["John", "Rolf", "Anna", "GReg"]
     # return that list#
-    arrayPerson = []
-    for person in people_list:
-        arrayPerson.append(person.strip())
-    print("arrayPerson : ", arrayPerson)
+    # arrayPerson = []
+    # for person in people_list:
+    #     arrayPerson.append(person.strip())
+    # print("arrayPerson : ", arrayPerson)
     # strip = remove spaces at the beginning and at the end
-
-    return people_list
+    # OTHER WAY to simplify the code
+    # people_list = [person.strip() for person in people.split(',')]
+    return [person.strip() for person in input("Enter the names of people you know, separated by commas: ").split(',')]
+    # return people_list
 
 def ask_user():
     person = input("Enter a name of someone you know")
     # ask user for a name
     people = who_do_you_know()
-    #  see if their  name is the list of people they  know
+    #  see if their  name is the list of people they  know[person.strip() for person in input(people.split(','))])
+
     if person in people:
     # print out that they know the person
         print("You know {} ".format(person))
