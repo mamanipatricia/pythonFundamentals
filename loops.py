@@ -29,4 +29,22 @@ while user_wants_number == True:
         user_wants_number = False
         print(10)
 
+# --------------
+print("-------------")
+
+know_people = ["John", "Anna", "Mary"]
+
+person = input("Enter the person you know")
+
+if person in know_people:
+    print("you know {}!".format(person))
+else:
+    print("You dont know {}!".format(person))
+
+# if person not in know_people:
+#     print("You dont know this person")
+
+
+
+
 

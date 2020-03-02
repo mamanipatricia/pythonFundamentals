@@ -58,6 +58,47 @@ set2 = {5}
 set1 = {14, 5, 9, 31, 12, 77, 67, 8}
 set2 = {5, 77, 9, 12}
 
+### FLOW CONTROL - LOOPS AND IFS
+
+This coding exercise has two steps.
+- 1. Modify the method even_numbers() so that it only returns a list of even numbers (2, 4, 6, etc...)
+- 2. Modify the method user_menu(choise) so that if choise is "q" . It returns Quit" . Make sure that if choise is "a" it still returns "Add"
+
+numbers = [1, 2, 3, 4 , 5, 6, 7, 8, 9]
+
+<!-- modify the method below to make sure only even numbers are returned -->
+
+def even_numbers():
+evens = []
+for number in numbers:
+    evens.append(number)
+return evens
+
+<!-- Modify the below method so that "Quit" is returned if the choice parameter is "q". -->
+<!-- Do not remove the existing code -->
+
+def user_menu(choise):
+if choice == "a":
+    return "Add"
+
+----------------
+
+SOL:
+
+def even_numbers():
+evens = []
+for number in numbers:
+    if number % 2 == 0:
+        evens.append(number)
+return evens
+
+#### use elif because always one of them is gonna run
+def user_menu(choise):
+if choice == "a":
+    return "Add"
+elif choice == "q"
+    return "Quit"
+
 
 
 
