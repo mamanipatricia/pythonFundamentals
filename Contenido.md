@@ -111,7 +111,7 @@ The conding exercise has three parts. See them outlined in detail the coding exe
 - Create a dictionary variable, called 'student'
 - modify a variable, 'grades', so it contains the value of a dictionaries key
 - implement a function calculating a total average grade for a class of students.
-'''python
+```python
 student =
 
 def average_grade(data):
