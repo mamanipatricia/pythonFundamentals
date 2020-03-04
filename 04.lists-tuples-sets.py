@@ -25,7 +25,6 @@ gradesTuple = (77, 88, 99, 100, 299, 445) # inmutable
 setGrades = {77, 43, 23, 64, 64} # remove 64
 print(setGrades)
 
-# --------------------------------
 print("------ ADDING ELEM. TO LIST, TUPLAS AND SETS ------")
 # ADDING
 # LIST
