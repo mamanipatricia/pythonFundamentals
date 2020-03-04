@@ -5,8 +5,6 @@ REQUIREMENTS:
 
 To run any file from this project type on console:
 
-'''
-
+```
 $ python fileName.py
-
-'''
+```
