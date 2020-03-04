@@ -1,9 +1,8 @@
-### Variables, have to be descriptive
-
 
 ### HOMEWORK:
 
 ### VARIABLES
+**Variables, have to be descriptive**
 
 - 1. Create two variables, var1 and var2 , both with the same value, it ca be anything you want.
 - 2. Create two variables, num1 and num2 , that multiply together to give 16.
