@@ -1,9 +1,9 @@
 ### Variables, have to be descriptive
 
 
-## HOMEWORK:
+### HOMEWORK:
 
-1. VARIABLES:
+### VARIABLES
 
 - 1. Create two variables, var1 and var2 , both with the same value, it ca be anything you want.
 - 2. Create two variables, num1 and num2 , that multiply together to give 16.
@@ -16,7 +16,7 @@ var2 = "Hello"
 num1 = 4
 num2 = 4
 ```
-2. METHODS:
+### METHODS
 
 - 1. Complete the method return_42(), by making it return 42.
 - 2. Create a method, which must be called my_method() , which takes two arguments and returns the result of its two arguments multiplied together.
@@ -35,7 +35,7 @@ def my_method():
     return arg1 * arg2
 ```
 
-# LISTS, TUPLES AND SETS
+### LISTS, TUPLES AND SETS
 
 This coding exercise requires you to complete three steps"
 - 1. Create a list, called my_list , with three numbers. Total of the numbers added together should be 100.
@@ -94,7 +94,7 @@ for number in numbers:
         evens.append(number)
 return evens
 ```
-#### use elif because always one of them is gonna run
+ **use elif because always one of them is gonna run**
 
 ```python
 def user_menu(choise):
